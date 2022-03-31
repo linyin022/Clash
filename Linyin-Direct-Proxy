@@ -14,7 +14,7 @@ ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=🐟 Final,[]FINAL
 
-custom_proxy_group=🚀 Proxy`select`[]🇭🇰 HK`[]🇸🇬 SG`[]🇯🇵 JP`[]DIRECT
+custom_proxy_group=🚀 Proxy`select`[]🇭🇰 HK`[]🇸🇬 SG`[]🇯🇵 JP`[]🚀 Select
 custom_proxy_group=🚀 Select`select`.*
 custom_proxy_group=🎥 Netflix`select`[]🇭🇰 HK`[]🇸🇬 SG`[]🇯🇵 JP`[]🚀 Select
 custom_proxy_group=📲 Telegram`select`[]🇭🇰 HK`[]🇸🇬 SG`[]🇯🇵 JP`[]🚀 Select

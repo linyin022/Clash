@@ -16,7 +16,7 @@ ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clas
 ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🎯 Direct,[]GEOIP,CN
 ruleset=🐟 Final,[]FINAL
 
 custom_proxy_group=🚀 Proxy`select`[]🇭🇰 HK`[]🇸🇬 SG`[]🇯🇵 JP`[]🚀 Select

@@ -2,7 +2,6 @@
 ;不要随意改变关键字，否则会导致出错
 ;acl4SSR规则-在线版
 
-
 ruleset=Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
@@ -19,10 +18,10 @@ ruleset=Final,[]FINAL
 custom_proxy_group=Proxy`select`.*
 custom_proxy_group=Netflix`select`[]Proxy`(新加坡|坡|狮城|SG|Singapore)`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
 custom_proxy_group=Telegram`select`[]Proxy`(新加坡|坡|狮城|SG|Singapore)
-custom_proxy_group=Final`select`[]DIRECT`[]Proxy
+custom_proxy_group=Final`select`[]Direct`[]Proxy
 ;custom_proxy_group=Netflix`select`[]HK`[]SG`[]JP`
 ;custom_proxy_group=Telegram`select`[]HK`[]SG`[]JP`
-;custom_proxy_group=Final`select`[]DIRECT`[]Proxy
+;custom_proxy_group=Final`select`[]Direct`[]Proxy
 ;custom_proxy_group=HK`select`(港|HK|Hong Kong)
 ;custom_proxy_group=SG`select`(新加坡|坡|狮城|SG|Singapore)
 ;custom_proxy_group=JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)

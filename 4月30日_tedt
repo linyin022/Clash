@@ -28,7 +28,7 @@ ruleset=DIRECT,[]GEOIP,CN
 ruleset=Final,[]MATCH
 
 custom_proxy_group=代理`select`.*
-custom_proxy_group=奈飞`select`[]Proxy`(新加坡|坡|狮城|SG|Singapore)`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
+custom_proxy_group=奈飞`select`[]代理`(新加坡|坡|狮城|SG|Singapore)`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
 
 enable_rule_generator=true
 overwrite_original_rules=true

@@ -25,7 +25,7 @@ ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ch
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=DIRECT,[]GEOIP,CN
-ruleset=Final,[]MATCH
+ruleset=代理,[]MATCH
 
 custom_proxy_group=代理`select`.*
 custom_proxy_group=奈飞`select`[]代理`(新加坡|坡|狮城|SG|Singapore)`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)

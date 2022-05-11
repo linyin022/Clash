@@ -17,7 +17,6 @@ ruleset=Final,[]FINAL
 
 custom_proxy_group=Proxy`select`.*
 custom_proxy_group=Netflix`select`[]Proxy`(新加坡|坡|狮城|SG|Singapore)`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
-custom_proxy_group=Telegram`select`[]Proxy`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=Final`select`[]Proxy`[]DIRECT
 
 enable_rule_generator=true

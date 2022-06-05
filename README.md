@@ -10,4 +10,4 @@
 - hk、jp两个单独查询选择
 - **Neverlosecontact**使用故障转移套hk、sg两个负载均衡
 - Netflix只套了一个sg的负载均衡
-  - 在clash设置里设置隐藏无法选择的策略组
+  - 在clash设置中将**隐藏无法选择的策略组**选项打开

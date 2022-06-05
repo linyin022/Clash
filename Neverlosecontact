@@ -30,12 +30,16 @@ ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ch
 ruleset=DIRECT,[]GEOIP,CN
 ruleset=Final,[]FINAL
 
-custom_proxy_group=Proxy`fallback`[]HK`[]JP`http://www.gstatic.com/generate_204`180
+custom_proxy_group=Proxy`select`[]Neverlosecontact`[]香港`[]日本
 custom_proxy_group=Netflix`fallback`[]SG`http://www.gstatic.com/generate_204`180
 custom_proxy_group=Final`select`[]Proxy`[]DIRECT
+custom_proxy_group=香港`select`(港|HK|Hong Kong)
+custom_proxy_group=日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
+custom_proxy_group=Neverlosecontact`fallback`[]HK`[]JP`http://www.gstatic.com/generate_204`180
 custom_proxy_group=HK`load-balance`(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=SG`load-balance`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=JP`load-balance`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`180
+
 
 enable_rule_generator=true
 overwrite_original_rules=true

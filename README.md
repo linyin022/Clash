@@ -4,7 +4,7 @@
 
 新增[Linyin_04_23](https://github.com/linyin022/Clash/blob/main/Linyin_04_23)（完全重改了策略组。）[现主用]
 
-[Neverlosecontact](https://github.com/linyin022/Clash/blob/main/Neverlosecontact)即永不失联策略组，具体思路为：
+[Neverlosecontact](https://github.com/linyin022/Clash/blob/main/Neverlosecontact)即永不失联策略组[测试中]，具体思路为：
 
 - hk、sg、jp三个地区负均衡
 - hk、jp两个单独查询选择

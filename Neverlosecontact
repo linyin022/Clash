@@ -28,11 +28,12 @@ ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ru
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,[]GEOIP,CN
-ruleset=Final,[]FINAL
+ruleset=Final,[]MATCH
+;ruleset=Final,[]FINAL
 
 custom_proxy_group=Proxy`select`[]Neverlosecontact`[]香港`[]日本
 custom_proxy_group=Netflix`fallback`[]SG`http://www.gstatic.com/generate_204`180
-custom_proxy_group=Final`select`[]Proxy`[]DIRECT
+;custom_proxy_group=Final`select`[]Proxy`[]DIRECT
 custom_proxy_group=香港`select`(港|HK|Hong Kong)
 custom_proxy_group=日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
 custom_proxy_group=Neverlosecontact`fallback`[]HK`[]JP`http://www.gstatic.com/generate_204`180

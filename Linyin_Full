@@ -33,9 +33,9 @@ ruleset=Proxy,[]MATCH
 
 
 custom_proxy_group=Proxy`select`[]低倍率HK`[]Neverlosecontact`[]香港`[]日本
-custom_proxy_group=Netflix`fallback`[]Texon-SG`[]Flower-SG`http://www.gstatic.com/generate_204`180
 custom_proxy_group=香港`select`(港|HK|Hong Kong)
 custom_proxy_group=日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
+custom_proxy_group=Netflix`fallback`[]Texon-SG`[]Flower-SG`http://www.gstatic.com/generate_204`180
 custom_proxy_group=Neverlosecontact`fallback`[]Texon-HK`[]Flower-HK`[]Texon-JP`[]Flower-JP`http://www.gstatic.com/generate_204`180
 custom_proxy_group=低倍率HK`load-balance`(香港雞蛋仔|香港实验性)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=Texon-HK`load-balance`(香港雞蛋仔|香港燒鴨飯)`http://www.gstatic.com/generate_204`180
